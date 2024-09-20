@@ -1,0 +1,45 @@
+.pokemon{
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pokemon-name{
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.5rem;
+}
+.link{
+    text-decoration: none;
+}  
+.pokemon-image{
+    height: 250px;
+    width: 250px;
+    margin-bottom: 3rem;
+}
+.pokemon:hover{
+    background-color: beige;
+    cursor: pointer;
+}
+.pokemon-height{
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.5rem;
+}
+.pokemon-weight{
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.5rem;
+}
+.pokemon-types{
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.5rem;
+}
+.pokemon-details-wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    margin-top: 2rem;
+}
